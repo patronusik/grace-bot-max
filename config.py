@@ -1,25 +1,25 @@
 import os
 
-CHANNEL_ID = -69190446336694
+CHANNEL_ID = -69166063752457
 MAX_BOT_TOKEN = os.getenv("MAX_BOT_TOKEN") or os.getenv("MAX_TOKEN") or os.getenv("BOT_TOKEN")
 BOT_TOKEN = os.getenv("MAX_BOT_TOKEN") or os.getenv("MAX_TOKEN") or os.getenv("BOT_TOKEN")
 
 # --- ССЫЛКИ ---
-CHANNEL_URL = "https://max.ru/id3025006144_gos"
-SITE_URL = "https://kaspiy-ast.ru"
+CHANNEL_URL = "https://max.ru/id3015020968_gos"
+SITE_URL = "https://school-grace.astrobl.ru"
 FORM_URL = "https://тест/обращение"
 
 # --- ТЕКСТЫ ---
 TEXT_SUBSCRIBE = (
-    "Для того чтобы продолжить использовать бот, необходимо подписаться на канал "
-    "ГАУ АО «РЦСП «Каспий».\n\n"
+    "Для того чтобы продолжить использовать бот, необходимо подписаться на канал
+    «ГБУ ДО АО «СШОР им. Л.А. Тихомировой».\n\n"
     "Для этого нажмите «Открыть канал» или перейдите по ссылке:\n"
     f"{CHANNEL_URL}\n\n"
     "Затем вернитесь в чат-бот и нажмите «Я подписан»."
 )
 
 TEXT_WELCOME = (
-    "Добро пожаловать в чат-бот ГАУ АО «РЦСП «Каспий»!\n\n"
+    "Добро пожаловать в чат-бот «ГБУ ДО АО «СШОР им. Л.А. Тихомировой»!\n\n"
     "Выберите нужную категорию:"
 )
 
