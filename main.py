@@ -7,7 +7,7 @@ import asyncio
 from maxbot.bot import Bot
 from maxbot.dispatcher import Dispatcher
 
-from handlers import start, menu, support
+from handlers import start, menu   # ← support убран
 
 BOT_TOKEN = os.getenv("MAX_BOT_TOKEN") or os.getenv("MAX_TOKEN") or os.getenv("BOT_TOKEN")
 
@@ -22,7 +22,7 @@ dp = Dispatcher(bot)
 # Регистрируем обработчики
 start.register(dp, bot)
 menu.register(dp, bot)
-support.register(dp, bot)
+# support.register(dp, bot)   ← удалено
 
 if __name__ == "__main__":
     asyncio.run(dp.run_polling())
