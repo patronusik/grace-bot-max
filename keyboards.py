@@ -9,27 +9,25 @@ subscribe_kb = InlineKeyboardMarkup(inline_keyboard=[
 
 # --- ГЛАВНОЕ МЕНЮ ---
 main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="🏛️ О клубе", callback_data="about")],
+    [InlineKeyboardButton(text="🤸‍♀️ О художественной гимнастике", callback_data="about")],
     [InlineKeyboardButton(text="📍 Адреса учреждения", callback_data="addresses")],
     [InlineKeyboardButton(text="💳 Платные услуги", url="https://school-grace.astrobl.ru/deyatelnost/platnye-uslugi")],
-    [InlineKeyboardButton(text="🎖️ Меры поддержки СВО", callback_data="support_menu")],
-    [InlineKeyboardButton(text="🏋️ Про ФОК", callback_data="about_fok")],
+    [InlineKeyboardButton(text="❓ Часто задаваемые вопросы", callback_data="support_menu")],
     [InlineKeyboardButton(text="📞 Справочная информация", callback_data="contacts")],
+    [InlineKeyboardButton(text="💬 Остались вопросы? Напишите нам", url="https://pos.gosuslugi.ru/landing/")],
 ])
 
-# --- МЕНЮ МЕР ПОДДЕРЖКИ ---
+# --- ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ ---
 support_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="🏐 Волейбол сидя", callback_data="support_volleyball")],
-    [InlineKeyboardButton(text="🎲 Нарды без границ", callback_data="support_backgammon")],
-    [InlineKeyboardButton(text="🧘 Мягкий фитнес", callback_data="support_fitness")],
-    [InlineKeyboardButton(text="🏓 Настольный теннис", callback_data="support_table_tennis")],
-    [InlineKeyboardButton(text="🎯 Метание ножей", callback_data="support_knife_throwing")],
-    [InlineKeyboardButton(text="⬅️ Назад в меню", callback_data="back_to_menu")],
+    [InlineKeyboardButton(text="❓ С какого возраста принимаются девочки на физкультурно-оздоровительную программу?", callback_data="question_1")],
+    [InlineKeyboardButton(text="❓ Какие программы реализуются в учреждении?", callback_data="question_2")],
+    [InlineKeyboardButton(text="❓ По какому виду спорта ведётся спортивная подготовка?", callback_data="question_3")],
+    [InlineKeyboardButton(text="❓ Какие направления программ есть в учреждении?", callback_data="question_4")],
 ])
 
 # --- КНОПКА "НАЗАД" ДЛЯ ПОДМЕНЮ ---
 back_to_support_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="⬅️ Назад к мерам поддержки", callback_data="support_menu")],
+    [InlineKeyboardButton(text="⬅️ Назад к часто задаваемым вопросам", callback_data="support_menu")],
     [InlineKeyboardButton(text="🏠 На главную", callback_data="back_to_menu")],
 ])
 
