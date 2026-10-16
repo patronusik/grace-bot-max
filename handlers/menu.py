@@ -1,6 +1,6 @@
 from config import (
     TEXT_WELCOME, TEXT_ABOUT, TEXT_ADDRESSES, TEXT_PAID_SERVICES,
-    SUPPORT_DATA, TEXT_CONTACTS, SITE_URL
+    TEXT_SUPPORT_MENU, SUPPORT_DATA, TEXT_CONTACTS, SITE_URL
 )
 from keyboards import main_menu_kb, back_to_menu_kb, subscribe_kb
 from maxbot.types import InlineKeyboardMarkup, InlineKeyboardButton
