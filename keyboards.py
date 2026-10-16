@@ -19,10 +19,10 @@ main_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
 
 # --- ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ ---
 support_menu_kb = InlineKeyboardMarkup(inline_keyboard=[
-    [InlineKeyboardButton(text="❓ С какого возраста принимаются девочки на физкультурно-оздоровительную программу?", callback_data="question_1")],
-    [InlineKeyboardButton(text="❓ Какие программы реализуются в учреждении?", callback_data="question_2")],
-    [InlineKeyboardButton(text="❓ По какому виду спорта ведётся спортивная подготовка?", callback_data="question_3")],
-    [InlineKeyboardButton(text="❓ Какие направления программ есть в учреждении?", callback_data="question_4")],
+    [InlineKeyboardButton(text="❓ Возраст приема", callback_data="question_1")],
+    [InlineKeyboardButton(text="❓ Программы", callback_data="question_2")],
+    [InlineKeyboardButton(text="❓ Вид спорта", callback_data="question_3")],
+    [InlineKeyboardButton(text="❓ Направления", callback_data="question_4")],
 ])
 
 # --- КНОПКА "НАЗАД" ДЛЯ ПОДМЕНЮ ---
