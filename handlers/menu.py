@@ -58,9 +58,6 @@ def register(dp, bot):
             ])
             await bot.send_message(user_id=user_id, text=TEXT_PAID_SERVICES, reply_markup=kb, format="markdown")
 
-        elif payload == "about_fok":
-            await bot.send_message(user_id=user_id, text=TEXT_ABOUT_FOK, reply_markup=back_to_menu_kb, format="markdown")
-
         elif payload == "contacts":
             await bot.send_message(user_id=user_id, text=TEXT_CONTACTS, reply_markup=back_to_menu_kb, format="markdown")
 
