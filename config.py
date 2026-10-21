@@ -42,7 +42,7 @@ TEXT_PAID_SERVICES = (
 )
 
 TEXT_CONTACTS = (
-    "📞 **Справочная информация**\n\n"
+    "📞 **Контактная информация**\n\n"
     "• Телефон учебной части: +7 (8512) 51-14-07\n"
     "• Телефон вахты: +7 (8512) 51-90-09\n"
     "• Email: official@sshortihomirova.astrobl.ru\n"
